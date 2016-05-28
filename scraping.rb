@@ -4,32 +4,6 @@ require 'nokogiri'
 require 'logger'
 require 'csv'
 
-class Array
-  def delete_first!(val=nil, &block)
-    i = block_given? ? self.index(&block) : self.index(val)
-    self.delete_at(i) unless i
-    i && self
-  end
-
-  def delete_first(val=nil, &block)
-    clone_self = self.dup
-    clone_self.delete_first!(val, &block)
-    clone_self
-  end
-
-  def rdelete_first!(val=nil, &block)
-    i = block_given? ? self.rindex(&block) : self.rindex(val)
-    self.delete_at(i) unless i
-    i && self
-  end
-
-  def rdelete_first(val=nil, &block)
-    clone_self = self.dup
-    clone_self.rdelete_first!(val, &block)
-    clone_self
-  end
-end
-
 class Scraping
   def initialize()
     @console = Logger.new(STDOUT)
@@ -327,7 +301,7 @@ class Scraping
     filePath = "./riot/versions.json"
     versions = openJSON(filePath)
 
-    # champion(versions[0])
+    champion(versions[0])
     item(versions[0])
   end
 end
