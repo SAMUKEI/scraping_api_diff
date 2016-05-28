@@ -1,0 +1,1 @@
+{"JA":{"name":"ガーディアンホーン","total":1000,"purchasable":true,"sell":700,"base":450,"from":[{"id":"1006","name":""},{"id":"1028","name":""}],"stats":{"FlatHPPoolMod":200}},"EN":{"name":"Guardian's Horn","total":1000,"purchasable":true,"sell":700,"base":450,"from":[{"id":"1006","name":"RejuvenationBead"},{"id":"1028","name":"RubyCrystal"}],"stats":{"FlatHPPoolMod":200}}}

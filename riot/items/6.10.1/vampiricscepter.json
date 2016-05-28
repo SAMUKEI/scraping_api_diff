@@ -1,0 +1,1 @@
+{"JA":{"name":"ヴァンパイアセプター","total":900,"purchasable":true,"sell":630,"base":550,"from":[{"id":"1036","name":""}],"stats":{"FlatPhysicalDamageMod":15,"PercentLifeStealMod":0.1}},"EN":{"name":"Vampiric Scepter","total":900,"purchasable":true,"sell":630,"base":550,"from":[{"id":"1036","name":"LongSword"}],"stats":{"FlatPhysicalDamageMod":15,"PercentLifeStealMod":0.1}}}
